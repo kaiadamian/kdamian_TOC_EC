@@ -1,0 +1,21 @@
+right reset
+q0,q1,q2,q3,qacc,qrej
+a,b
+a,b,_
+q0
+qacc
+qrej
+q0,_,q1,_,L
+q0,a,q1,a,L
+q0,b,q1,b,L
+q1,a,q2,$,R
+q1,b,q3,$,R
+q1,_,qacc,$,R
+q2,a,q2,a,R
+q2,b,q3,a,R
+q2,_,qacc,a,R
+q3,a,q2,b,R
+q3,b,q3,b,R
+q3,_,qacc,b,R
+q1,$,q1,$,R
+q0,$,q1,$,L
