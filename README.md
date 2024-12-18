@@ -6,8 +6,8 @@ For this extra credit, I simulated the TM variant RESET machine. I figured out h
 I chose this extra credit because, for me, the hardest homework was Homework 9B Teamable where we had to design a RESET machine. The concept was super hard for me to understand, as I could not grasp the concept that the character being replaced was not in the same place that the tape head ended up. However, doing this extra credit really helped me to understand how the TM variant RESET machine works!
 
 3. What files are what? <br />
-Aside from this README, I have the files below:
-reset_machine.py: RESET machine implementation, you can change the input string and file in the main() function.
-shift_left.csv: implementation of TM to shift tape left using only RESET
-shift_right.csv: implementation of TM to shift tape right using only RESET
+Aside from this README, I have the files below: <br />
+reset_machine.py: RESET machine implementation, you can change the input string and file in the main() function. <br />
+shift_left.csv: implementation of TM to shift tape left using only RESET. <br />
+shift_right.csv: implementation of TM to shift tape right using only RESET. <br />
 
